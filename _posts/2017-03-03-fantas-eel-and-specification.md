@@ -30,9 +30,9 @@ Coord.prototype.translate =
   function (x, y, z) {
     // Named properties!
     return Coord(
-      this.x + x,
-      this.y + y,
-      this.z + z
+      this.x = x,
+      this.y = y,
+      this.z = z
     )
   }
 
